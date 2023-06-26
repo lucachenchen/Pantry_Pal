@@ -1,0 +1,9 @@
+1;Vegetable;Carrot;carrot_icon;Walmart;2023-05-01;2023-05-02;2023-05-09
+2;Fruit;Apple;apple_icon;Target;2023-05-03;;2023-05-10
+3;Dairy;Milk;milk_icon;Costco;2023-05-04;2023-05-05;2023-05-11
+4;Meat;Chicken;chicken_icon;Walmart;2023-05-06;2023-05-07;2023-05-13
+5;Grain;Rice;rice_icon;Trader Joes;2023-05-08;;2023-06-08
+6;Beverage;Coffee;coffee_icon;Starbucks;2023-05-09;2023-05-10;2023-06-09
+7;Condiment;Ketchup;ketchup_icon;Costco;2023-05-11;2023-05-12;2023-06-12
+8;Snack;Chips;chips_icon;Walmart;2023-05-13;2023-05-14;2023-05-20
+9;Fruit;Banana;banana_icon;Target;2023-05-15;;2023-05-18

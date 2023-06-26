@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="anthracite">#333333</color>
+    <color name="green_shit">#AECCB4</color>
+    <color name="yellow_shit">#FEF9D1</color>
+    <color name="pink_shit">#FFD0CA</color>
+    <color name="blue_shit">#A7A0B2</color>
+    <color name="gray_shit">#9CB0B1</color>
+    <color name="red_shit">#FF9385</color>
+    <color name="scan_button">#FFD0CA</color>
+    <color name="bottom_nav_active">#FFFFFFFF</color> <!-- Red color for active items -->
+    <color name="bottom_nav_inactive">#333333</color> <!-- Gray color for inactive items -->
+</resources>

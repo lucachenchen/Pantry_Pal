@@ -1,0 +1,56 @@
+[
+  {
+    "id": "1",
+    "recipeName": "Spaghetti Bolognese",
+    "iconName": "spaghetti_bolognese_icon",
+    "preparationTime": "30 minutes",
+    "ingredients": [
+      "500g Spaghetti",
+      "1 Jar Bolognese Sauce",
+      "Grated Cheese"
+    ],
+    "preparationSteps": [
+      "Boil the spaghetti according to the package instructions.",
+      "While the spaghetti is boiling, heat the Bolognese sauce in a separate saucepan.",
+      "Drain the spaghetti and return to the pot.",
+      "Pour the Bolognese sauce over the spaghetti and stir to combine.",
+      "Serve with grated cheese on top."
+    ]
+  },
+  {
+    "id": "2",
+    "recipeName": "Chicken Salad",
+    "iconName": "chicken_salad_icon",
+    "preparationTime": "20 minutes",
+    "ingredients": [
+      "Poulet",
+      "Mixed Salad Leaves",
+      "Tomatoes",
+      "Cucumbers",
+      "Your Favorite Salad Dressing"
+    ],
+    "preparationSteps": [
+      "Slice the grilled chicken breast into thin strips.",
+      "In a large bowl, combine the chicken strips, salad leaves, tomatoes, and cucumbers.",
+      "Pour your favorite dressing over the salad and toss to combine.",
+      "Serve immediately."
+    ]
+  },
+  {
+    "id": "3",
+    "recipeName": "Pancakes",
+    "iconName": "pancake_icon",
+    "preparationTime": "15 minutes",
+    "ingredients": [
+      "2 cups pancake mix",
+      "1 1/2 cups milk",
+      "1 egg"
+    ],
+    "preparationSteps": [
+      "In a large bowl, combine the pancake mix, milk, and egg. Stir until smooth.",
+      "Heat a lightly oiled griddle or frying pan over medium high heat.",
+      "Pour or scoop the batter onto the griddle, using approximately 1/4 cup for each pancake.",
+      "Brown on both sides and serve hot."
+    ]
+  }
+]

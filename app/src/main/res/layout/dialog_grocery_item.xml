@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="360dp"
+    android:layout_height="180dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="360dp"
+        android:layout_height="60dp">
+
+        <ImageView
+            android:id="@+id/popUpGroceryIcon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/fridge_empty" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/popUpGroceryName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Name" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/popUpOpenedText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:text="opened " />
+
+                <TextView
+                    android:id="@+id/popUpOpenedDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:text="date" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/popUpUseUntilText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/openedDate"
+                    android:text="use until " />
+
+                <TextView
+                    android:id="@+id/popUpUseUntilDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/openedDate"
+                    android:text="date" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/popUpBoughtText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/useUntilDate"
+            android:text="Bought " />
+
+        <TextView
+            android:id="@+id/popUpBoughtInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/useUntilDate"
+            android:text="Info" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/popUpOpenButton"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:paddingTop="14dp"
+            android:textAlignment="center"
+            android:text="Open"
+            android:background="@color/blue_shit"/>
+
+        <TextView
+            android:id="@+id/popUpUsedButton"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:paddingTop="14dp"
+            android:textAlignment="center"
+            android:text="Used"
+            android:background="@color/green_shit"/>
+
+        <TextView
+            android:id="@+id/popUpTrashButton"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:paddingTop="14dp"
+            android:textAlignment="center"
+            android:text="Trash"
+            android:background="@color/red_shit"/>
+
+    </LinearLayout>
+
+</LinearLayout>
